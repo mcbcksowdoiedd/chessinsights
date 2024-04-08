@@ -83,7 +83,7 @@ defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
 diff-match-patch @ file:///Users/ktietz/demo/mc3/conda-bld/diff-match-patch_1630511840874/work
 dill @ file:///work/ci_py311/dill_1676827712960/work
 distributed @ file:///croot/distributed_1686866039819/work
-Django==5.0.4
+Django==4.2.9
 docstring-to-markdown @ file:///work/ci_py311/docstring-to-markdown_1676851973684/work
 docutils @ file:///work/ci_py311/docutils_1676822773036/work
 entrypoints @ file:///work/ci_py311/entrypoints_1676823319002/work
