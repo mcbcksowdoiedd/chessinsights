@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Quotes Carousel</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+
+</head>
+
+<body>
+    <div id="buffering">
+        <div class="buffering-content">
+            <!-- <h1> QuChessotes </h1> -->
+            <div id="quote-container">
+                <div class="quote">"Chess is the struggle against error." - Johannes Zukertort</div>
+                <div class="quote">"Chess, like love, like music, has the power to make men happy." - Siegbert Tarrasch </div>
+                <div class="quote">"In chess, as in life, a man is his own most dangerous opponent." - Vasily Smyslov</div>
+                <div class="quote">" “When you see a good move, look for a better one.” - Emanuel Lasker</div>
+                <div class="quote">" “Nothing excites jaded Grandmasters more than a theoretical novelty.” - Dominic Lawson</div>
+                <div class="quote">" “We cannot resist the fascination of sacrifice, since a passion for sacrifices is part of a Chessplayer’s nature.” - Rudolf Spielman</div>
+                <div class="quote">" “A win by an unsound combination, however showy, fills me with artistic horror.” - Wilhelm Steinitz</div>
+                <div class="quote">" “The winner of the game is the player who makes the next-to-last mistake.” - Savielly Tartakover</div>
+                <div class="quote">" “Life is like a game of Chess, changing with each move.” - Bobby Fischer</div>
+                <div class="quote">" “Chess is played with the mind and not with the hands!” - Renaud and Kahn</div>
+            </div>
+        </div>
+        <div id="load">
+            <h1 class="load-effect">loading..</h1>
+        </div>
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const quotes = document.querySelectorAll(".quote");
+            let currentIndex = 0;
+
+            function showNextQuote() {
+                quotes[currentIndex].style.display = "none";
+                currentIndex = (currentIndex + 1) % quotes.length;
+                quotes[currentIndex].style.display = "block";
+            }
+
+            // Show the first quote on page load
+            quotes[currentIndex].style.display = "block";
+
+            // Set an interval to change quotes every 5 seconds (5000 milliseconds)
+            setInterval(showNextQuote, 5000);
+        });
+
+        setTimeout(function() {
+            window.location.href = "{% url 'download_file' %}";
+        }, 10000);  
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,327 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#8a2435;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #C68642, #F1C27D, #fff);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+.container {
+    position: relative;
+    width: calc(100% - 100px);
+    min-height: calc(100vh - 280px);
+    min-height: 300px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+header {
+    position: absolute;
+    top: -40px;
+    right: 20px;
+    left: 20px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+header .logo {
+    color: #8a2435;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+}
+header .logo:hover{
+    color: #8a2435;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #8a2435;
+    padding: 8px 15px;
+    border-radius: 25px;
+}
+
+header ul li a:hover {
+    background: #8a2435;
+    color: #fff;
+    box-sizing: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.content {
+    color: #8a2435;
+    margin-top: 20px;
+    transform: translateX(-100px);
+    max-width: 800px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    padding-left: 110px;
+}
+
+.content h2 {
+    font-size: 3em;
+    color: #8a2435;
+}
+
+.content p {
+    font-size: 1.2em;
+    color: #8a2435;
+    padding-bottom: 20px;
+}
+
+.content button,
+.content button:hover {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #8a2435;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    /* box-shadow: 0 5px 10px rgba(0,0,0,0.1); */
+    cursor: pointer;
+}
+
+.imgbx img {
+    max-width: 400px;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        transform: translateY(50px);
+    }
+
+    50% {
+        transform: translateY(100px);
+    }
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="file"] {
+    padding: 7px;
+    border-radius: 50px;
+    font-size: 16px;
+    background: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
+    width: 350px;
+    outline: none;
+}
+
+::-webkit-file-upload-button {
+    color: white;
+    background: #8a2435;
+    padding: 7px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 0 1px 1px #6b4559;
+    outline: none;
+}
+
+.btn-download,
+.btn-download:hover {
+    color: white;
+    background: #8a2435;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 0 1px 1px #6b4559;
+    outline: none;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+.download-body {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+}
+
+.download-body h2 {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.download-content {
+    width: 80%;
+}
+
+#buffering {
+    text-align: center;
+    background: linear-gradient(to right, #C68642, #F1C27D, #fff);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.buffering-content {
+    max-width: 800px;
+    height: 300px; /* Adjust the height as needed */
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 40px;
+}
+
+.quote {
+    display: none;
+    padding: 10px;
+    font-size: 24px;
+    max-height: 200px; /* Adjust the max height as needed */
+    overflow-y: auto;
+}
+
+#load {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.load-effect {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #fff;
+    position: relative;
+}
+
+.load-effect:before {
+    content: "loading..";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #8a2435;
+    overflow: hidden;
+    border-right: 4px solid #8a2435;
+    animation: load-animate 5s linear infinite;
+}
+
+@keyframes load-animate {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+  
+.player-color h4 {
+    font-size: 18px;
+    color: #8a2435;
+    margin-bottom: -10px;
+}
+  
+.player-color input[type="radio"] {
+    display: none; /* Hide the actual radio buttons */
+}
+  
+.player-color input[type="radio"] + label {
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 25px;
+    position: relative;
+}
+  
+.player-color input[type="radio"] + label:before {
+    content: '';
+    color: #8a2435;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    background-color: #fff;
+}
+  
+.player-color input[type="radio"]:checked + label:before {
+    background-color: #8a2435; /* Change this to your desired color */
+ } 
+  
+  /* Optional: Hover effect */
+.player-color input[type="radio"] + label:hover:before {
+    border-color: #8a2435;
+}
+
+.download-content, .player-cat{
+    font-weight: bold;
+}

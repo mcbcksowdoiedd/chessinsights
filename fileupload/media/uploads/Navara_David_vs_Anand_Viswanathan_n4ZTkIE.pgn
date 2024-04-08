@@ -1,0 +1,44 @@
+[Event "Shamkir Chess"]
+[Site "chess24.com"]
+[Date "2019.03.31"]
+[Round "1"]
+[White "Anand, Viswanathan"]
+[Black "Navara, David"]
+[Result "1/2-1/2"]
+[Board "1"]
+[WhiteElo "2779"]
+[WhiteTitle "GM"]
+[WhiteCountry "IND"]
+[WhiteFideId "5000017"]
+[WhiteEloChange "-1"]
+[BlackElo "2739"]
+[BlackTitle "GM"]
+[BlackCountry "CZE"]
+[BlackFideId "309095"]
+[BlackEloChange "1"]
+
+1. e4 {[%clk 1:59:57]} c5 {[%clk 1:59:56]} 2. Nf3 {[%clk 1:59:45]} d6 {[%clk
+1:59:51]} 3. d4 {[%clk 1:59:39]} cxd4 {[%clk 1:59:45]} 4. Nxd4 {[%clk 1:59:34]}
+Nf6 {[%clk 1:59:39]} 5. Nc3 {[%clk 1:59:26]} a6 {[%clk 1:59:35]} 6. Bd3 {[%clk
+1:59:16]} g6 {[%clk 1:54:35]} 7. f3 {[%clk 1:58:42]} Bg7 {[%clk 1:29:57]} 8. Be3
+{[%clk 1:57:45]} Nc6 {[%clk 1:29:16]} 9. Qd2 {[%clk 1:55:46]} Nxd4 {[%clk
+1:19:30]} 10. Bxd4 {[%clk 1:55:22]} Be6 {[%clk 1:19:22]} 11. g4 {[%clk 1:36:58]}
+b5 {[%clk 1:06:38]} 12. h4 {[%clk 1:28:04]} Qa5 {[%clk 0:56:17]} 13. a3 {[%clk
+1:16:31]} h6 {[%clk 0:53:06]} 14. O-O-O {[%clk 1:10:07]} Rb8 {[%clk 0:51:16]} 15.
+g5 {[%clk 1:06:02]} Nh5 {[%clk 0:50:45]} 16. Bxg7 {[%clk 1:05:53]} Nxg7 {[%clk
+0:50:36]} 17. gxh6 {[%clk 1:05:48]} Nh5 {[%clk 0:50:27]} 18. Qg5 {[%clk 1:05:10]}
+f6 {[%clk 0:46:26]} 19. Qxg6+ {[%clk 0:59:49]} Bf7 {[%clk 0:46:13]} 20. Qg1
+{[%clk 0:59:27]} b4 {[%clk 0:45:51]} 21. axb4 {[%clk 0:50:08]} Qxb4 {[%clk
+0:44:35]} 22. Kd2 {[%clk 0:48:00]} Nf4 {[%clk 0:34:46]} 23. Qe3 {[%clk 0:44:29]}
+Nxd3 {[%clk 0:28:41]} 24. Qxd3 {[%clk 0:39:57]} Rxh6 {[%clk 0:28:18]} 25. Qxa6
+{[%clk 0:35:14]} Kf8 {[%clk 0:16:27]} 26. Ra1 {[%clk 0:28:43]} d5 {[%clk
+0:11:26]} 27. Ra4 {[%clk 0:24:41]} Qc5 {[%clk 0:11:18]} 28. exd5 {[%clk 0:21:08]}
+Rxb2 {[%clk 0:08:00]} 29. Qa7 {[%clk 0:17:36]} Qd6 {[%clk 0:02:30]} 30. Qe3
+{[%clk 0:17:04]} Rg6 {[%clk 0:02:08]} 31. Ra8+ {[%clk 0:16:02]} Kg7 {[%clk
+0:01:40]} 32. Kc1 {[%clk 0:15:36]} Qb4 {[%clk 0:00:52]} 33. Ra4 {[%clk 0:10:47]}
+Rb1+ {[%clk 0:00:51]} 34. Nxb1 {[%clk 0:10:37]} Qxa4 {[%clk 0:00:50]} 35. Qxe7
+{[%clk 0:07:18]} Rg2 {[%clk 0:00:12]} 36. Qe4 {[%clk 0:05:27]} Qa7 {[%clk
+0:00:10]} 37. Re1 {[%clk 0:03:31]} Rg1 {[%clk 0:00:09]} 38. Nc3 {[%clk 0:01:07]}
+Qa1+ {[%clk 0:00:04]} 39. Kd2 {[%clk 0:00:49]} Rg2+ {[%clk 0:00:03]} 40. Re2
+{[%clk 1:00:29]} Rg1 {[%clk 1:00:01]} 41. Qe7 {[%clk 0:50:10]} Rd1+ {[%clk
+0:59:32]} 1/2-1/2

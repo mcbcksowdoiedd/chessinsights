@@ -1,0 +1,36 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2023.05.29"]
+[Round "-"]
+[White "deathsqrt"]
+[Black "Prajwal2103"]
+[Result "1-0"]
+[CurrentPosition "8/6p1/5pQ1/3N3p/3P4/2P1k3/PP5P/3RKR2 b - -"]
+[Timezone "UTC"]
+[ECO "B15"]
+[ECOUrl "https://www.chess.com/openings/Caro-Kann-Defense-2.d4-d5-3.Nc3"]
+[UTCDate "2023.05.29"]
+[UTCTime "14:28:31"]
+[WhiteElo "946"]
+[BlackElo "918"]
+[TimeControl "600"]
+[Termination "deathsqrt won by checkmate"]
+[StartTime "14:28:31"]
+[EndDate "2023.05.29"]
+[EndTime "14:39:25"]
+[Link "https://www.chess.com/game/live/79109549277"]
+[WhiteUrl "https://www.chess.com/bundles/web/images/noavatar_l.84a92436.gif"]
+[WhiteCountry "116"]
+[WhiteTitle ""]
+[BlackUrl "https://www.chess.com/bundles/web/images/noavatar_l.84a92436.gif"]
+[BlackCountry "69"]
+[BlackTitle ""]
+
+1. d4 d5 2. Nc3 c6 3. e4 Qa5 4. Bd2 Qd8 5. e5 Bg4 6. Qxg4 Nd7 7. Be2 Rb8 8. Qf4
+f6 9. exf6 exf6 10. Bh5+ Ke7 11. Qe3+ Kd6 12. Qg3+ Ke7 13. Bf4 Rc8 14. Bd6+ Ke6
+15. Na4 Rc7 16. Bxc7 Qxc7 17. Qxc7 Bb4+ 18. c3 Bd6 19. Bf7+ Kxf7 20. Qxd7+ Be7
+21. Qxb7 Nh6 22. Qxc6 Re8 23. Ne2 Rd8 24. Nc5 Rd6 25. Qb5 a6 26. Nxa6 Rxa6 27.
+Qxa6 Nf5 28. Nf4 Nd6 29. Nxd5 Nc8 30. Qb7 Nd6 31. Qxe7+ Kg6 32. Qxd6 h6 33. Ne7+
+Kf7 34. Nf5 Kg6 35. g4 h5 36. Nh4+ Kg5 37. Nf3+ Kxg4 38. Qg3+ Kf5 39. Nh4+ Ke4
+40. f3+ Kd3 41. Rd1+ Ke3 42. f4+ Ke4 43. Qg6+ Kxf4 44. Rf1+ Ke3 45. Nf5+ Ke4 46.
+Ne7+ Ke3 47. Nd5# 1-0

@@ -1,0 +1,19 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.12.24"]
+[Round "?"]
+[White "Prajwal2103"]
+[Black "perlite55"]
+[Result "1-0"]
+[ECO "C40"]
+[WhiteElo "1130"]
+[BlackElo "1065"]
+[TimeControl "1800"]
+[EndTime "9:08:01 PST"]
+[Termination "Prajwal2103 won by resignation"]
+
+1. e4 e5 2. Nf3 Bc5 3. Nc3 d6 4. d4 Bb4 5. dxe5 Bxc3+ 6. bxc3 Bg4 7. exd6 Bxf3
+8. Qxf3 Qxd6 9. Qf4 Qc6 10. Qe5+ Ne7 11. Bb5 Nd7 12. Bxc6 bxc6 13. Qxg7 O-O-O
+14. O-O Rdf8 15. Rd1 Ng6 16. Qd4 Rd8 17. Bg5 f6 18. Be3 c5 19. Qa4 Nb6 20. Qxa7
+Rxd1+ 21. Rxd1 Rd8 22. Rxd8+ Kxd8 23. Qb8+ Kd7 24. Bxc5 Nc4 25. Qb5+ Kc8 26.
+Qxc4 1-0

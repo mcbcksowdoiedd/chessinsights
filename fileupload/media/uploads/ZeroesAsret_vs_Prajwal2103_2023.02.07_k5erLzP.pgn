@@ -1,0 +1,32 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2023.02.07"]
+[Round "-"]
+[White "ZeroesAsret"]
+[Black "Prajwal2103"]
+[Result "1-0"]
+[CurrentPosition "rn3rk1/pBp2ppp/5n2/8/5P2/2B5/P1P2P1P/1R1QK2R b K -"]
+[Timezone "UTC"]
+[ECO "C20"]
+[ECOUrl "https://www.chess.com/openings/Kings-Pawn-Opening-Leonardis-Variation-2...d5-3.exd5"]
+[UTCDate "2023.02.07"]
+[UTCTime "05:14:14"]
+[WhiteElo "946"]
+[BlackElo "912"]
+[TimeControl "600"]
+[Termination "ZeroesAsret won by resignation"]
+[StartTime "05:14:14"]
+[EndDate "2023.02.07"]
+[EndTime "05:21:11"]
+[Link "https://www.chess.com/game/live/69485758411"]
+[WhiteUrl "https://images.chesscomfiles.com/uploads/v1/user/205303005.f1b1501b.50x50o.7b23f163e013.jpeg"]
+[WhiteCountry "116"]
+[WhiteTitle ""]
+[BlackUrl "https://www.chess.com/bundles/web/images/noavatar_l.84a92436.gif"]
+[BlackCountry "69"]
+[BlackTitle ""]
+
+1. e4 e5 2. d3 d5 3. exd5 Qxd5 4. Nc3 Bb4 5. Bd2 Bxc3 6. bxc3 e4 7. dxe4 Qxe4+
+8. Be3 Bg4 9. Nf3 Bxf3 10. gxf3 Qe5 11. Bg2 Nf6 12. f4 Qb5 13. Rb1 Qa5 14. Bxb7
+Qxc3+ 15. Bd2 O-O 16. Bxc3 {Game may have continued...} (16. Bxc3 Re8+ 17. Kf1
+Nbd7 18. Bxa8 Rxa8 19. Rg1 g6 20. Qd4 {+7.80}) 1-0
